@@ -1,0 +1,16 @@
+class Profile:
+    def _ init _ (self):
+        self.name = input('What is your name? ')
+        self.age = input('How old are you? ')
+        self.colour = input('what is your favorite colour ')
+        self.weight = input('What is your weight? ')
+   
+    def introduce (self):
+       print("\n--- Profile Created ---")
+       print(f"name: {self.name}")
+       print(f"Age: {self.age}")
+       print(f"Favorite Coulour: {self.colour}")
+       print(f"Weight: {self.weight}")
+
+user_profile = Profile()
+user_profile.introduce()
